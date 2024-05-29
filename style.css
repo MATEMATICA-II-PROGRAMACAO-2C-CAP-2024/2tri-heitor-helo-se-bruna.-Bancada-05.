@@ -13,17 +13,35 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
 .conteudo-principal{
     background-image:url("./img/a-ecolocalizacao-permite-aos-golfinhos-identificarem-localizacao-dos-outros-membros-grupo-5a16dd2bf3f9b.webp") ;
     background-repeat:no-repeat;
     background-size:cover;
-} 
+}
+
+
 .image-principal{
     width: 120px;
 }
+
 
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+
+.container_botao{
+    brackground-color: var(--botal-azul--)
+    border-radius: 5px;
+    padding: 1em;
+}
+
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2 solid var(--branco-principal--)
 }
