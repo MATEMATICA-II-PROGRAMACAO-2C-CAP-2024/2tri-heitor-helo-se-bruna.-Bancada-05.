@@ -35,7 +35,7 @@ body{
 
 
 .container_botao{
-    brackground-color: var(--botal-azul--)
+    background-color: var(--botal-azul);
     border-radius: 5px;
     padding: 1em;
 }
@@ -43,5 +43,5 @@ body{
 
 .botao_secundario{
     background-color: transparent;
-    border: 2 solid var(--branco-principal--)
+    border: 2 solid var(--branco-principal);
 }
