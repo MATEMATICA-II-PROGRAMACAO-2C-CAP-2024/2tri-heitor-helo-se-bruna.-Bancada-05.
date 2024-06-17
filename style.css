@@ -19,6 +19,8 @@ body{
     background-image:url("./img/a-ecolocalizacao-permite-aos-golfinhos-identificarem-localizacao-dos-outros-membros-grupo-5a16dd2bf3f9b.webp") ;
     background-repeat:no-repeat;
     background-size:cover;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -38,6 +40,10 @@ body{
     background-color: var(--botal-azul);
     border-radius: 5px;
     padding: 1em;
+    color: var(--branco-pricinpal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 
@@ -48,12 +54,24 @@ body{
 
 .container_aviso{
   font-size:12px;
-  font-witgh: 700px;
+  color: var(--cinza-secundário)
 
 }
+
+
+.container_titulo{
+     font-size: 28px;
+     font-weigth 700px;
+}
+
 
 .container_imagem{
     margin:1em 0 2em 0;
     width: 120px;
-    
+
 }
+
+.container_caixa{
+    margin: 0 6em;
+}
+
