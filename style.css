@@ -76,3 +76,28 @@ body{
     margin: 0 6em;
 }
 
+.secundaria-imagem{
+    width: 88%;
+}
+
+
+.secao-secundaria{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container_titulo_2{
+
+font-weight: 700;
+font-size: 48px;
+color:var(--branco-pricinpal);
+margin-bottom: 0.1em;
+
+}
+
+.container_texto{
+    
+    color: var(--cinza-secundário);
+    
+
+}
