@@ -3,6 +3,7 @@
    --cinza-secundário: #C0C0C0;
    --botao-azul: #167BF7;
    --cor-de-fundo:#00030C;
+   --botao-azul-efeito: #167BF7;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -103,7 +104,7 @@ margin-bottom: 0.1em;
 }
 .secundario_botao{
     display:inline-block;
-    margin-top; 1em;
+    margin-top: 1em;
 
 }
 
@@ -165,7 +166,7 @@ margin-bottom: 0.1em;
     color: purple;
     --botao-azul-efeito:
     --botao-azul: #167BF7;
-    --botao-azul-efeito #167BF7;
+    --botao-azul-efeito: #167BF7;
     --botao-azul-efeito:#96b7e0;
 
     }
@@ -174,3 +175,4 @@ margin-bottom: 0.1em;
         background-color: var(--botao-azul-efeito);
         background-color: var(--botao-azul-efeito);
         color: var(--cor-de-fundo);
+    }
